@@ -1,5 +1,8 @@
 FastArray (obvious solution, that took me 10 days to figure out, ugh)
 
+JSperf -- look at Map V2 Search Read -- the first test is slowed down by normal array access ...
+http://jsperf.com/map-check-v2/5
+
 I was not very satisified with read/write speeds of a pure array in JS on either FF or CH, 
 so I made a better version of it. FastArray can hold up to 1 Billion elements, for optimal performance, to be
 able to put more elements in it, You would have to provide another dimension ( otherwise, the performance 
