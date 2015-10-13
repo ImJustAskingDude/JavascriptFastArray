@@ -1,5 +1,7 @@
 FastArray (obvious solution, that took me 10 days to figure out, ugh)
 
+(This implementation is only good for set IDs, but now that I'm trying to use it, I think You could just as well create a version, that is sequntial, by either having an object with many arrays, or an array of arrays like in this implementation, and write some functions to support iterating over it, so that normal contiguous arrays are faster than normal versions as well.)
+
 JSperf -- look at Map V2 Search Read -- the first test is slowed down by normal array access ...
 http://jsperf.com/map-check-v2/5
 
